@@ -15,7 +15,7 @@ const WhoWeAre = () => {
         <div className="relative z-10 mx-auto flex h-full max-w-[1140px] flex-col justify-center px-4 max-md:px-5 mt-4">
           <div>
             <h3 className="mb-8 text-[20px] font-bold text-white max-md:mb-5 max-md:text-[15px]">
-              Jeevan Jyoti Samaj Sewa Sansthan Best NGO
+              Panchsheel Abhinav Foundation
             </h3>
             <div className="mb-12 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
           </div>
@@ -43,69 +43,95 @@ const WhoWeAre = () => {
       </section>
 
       <section
-        className="relative w-full bg-cover bg-center bg-fixed overflow-hidden"
-        style={{
-          backgroundImage: `url(${assets.banner02})`,
-          height: "clamp(760px, 75vw, 1083.05px)",
-        }}
-      >
-        <div
-          className="absolute inset-0"
-          style={{ background: "rgba(70, 20, 5, 0.82)" }}
-        />
+  className="relative w-full bg-cover bg-center bg-fixed overflow-hidden"
+  style={{
+    backgroundImage: `url(${assets.banner02})`,
+    height: "clamp(760px, 75vw, 1083.05px)",
+  }}
+>
+  <div className="absolute inset-0 bg-black/80" />
 
-        <div className="relative z-10 mx-auto flex h-full max-w-[900px] flex-col items-center justify-center px-5 text-center">
-          <h2 className="text-[36px] font-[700] text-white leading-[1.2]">
-            Who We Are
-          </h2>
+  <div
+    className="
+      relative z-10 mx-auto flex h-full max-w-[1050px]
+      flex-col items-center
+      px-5
+      pt-[80px]
+      pb-[25px]
+      text-center
+    "
+  >
+    <h2 className="text-[40px] font-[700] text-white leading-[1.2] mt-10">
+      Who We Are
+    </h2>
 
-          <div className="mt-[18px] mb-[32px] h-[4px] w-[50px] bg-[#ff5b00]" />
+    <div className="mt-[30px] mb-[32px] h-[4px] w-[60px] bg-[#ff5b00]" />
 
-          <p className="text-[15px] font-[700] leading-[1.75] text-[#ff7a30]">
-            Jeevan Jyoti Sama Sewa Sansthan NGO for Child Rights Protection:
-            Empowering Communities, Transforming Lives through Compassionate
-            Care, Sustainable Development, and Holistic Support for a Brighter,
-            Inclusive Future.
-          </p>
+    <p className="text-[25px] font-[700] leading-[1.75] text-[#ee0962] text-justify">
+      Panchsheel Abhinav Foundation for Child Rights Protection:
+      Empowering Communities, Transforming Lives through Compassionate
+      Care, Sustainable Development, and Holistic Support for a Brighter,
+      Inclusive Future.
+    </p>
 
-          <div className="mt-[26px] space-y-[16px] text-[13.5px] font-[400] leading-[1.8] text-white/85">
-            <p>
-              At Jeevan Jyoti Sama Sewa Sansthan, NGO for Child Rights
-              Protection, we are a passionate, dedicated organization committed
-              to making a meaningful difference in the lives of those we serve.
-              Our mission is founded on the principles of compassion,
-              inclusivity, sustainable development, celebrating diversity, and
-              wellness, and has benefitted underprivileged communities.
-            </p>
-            <p>
-              We envision a society where every individual, regardless of
-              background, has access to the opportunities and resources
-              necessary for a better life. By collaborating with stakeholders,
-              we focus on empowerment, education, health maintenance, and child
-              welfare, this is recognition to be awarded.
-            </p>
-            <p>
-              Our dedicated team of professionals and volunteers combine their
-              expertise and heartfelt commitment to give those in need inspiring
-              opportunities, thoughts, and basic utilities. Jeevan Jyoti Sama
-              Sewa Sansthan is a beacon of hope, initiating positive change and
-              providing self-sustaining within communities.
-            </p>
-            <p>
-              Through our work and efforts, we aim to make lasting and long-term
-              change, building a bridge of access and more equitable future for
-              all.
-            </p>
-          </div>
+    <div className="mt-[26px] space-y-[16px] text-[16px] font-[400] leading-[1.8] text-white/85 text-justify">
+      <p>
+        At Panchsheel Abhinav Foundation, NGO for Child Rights Protection,
+        we are a passionate, dedicated organization committed to making a
+        meaningful difference in the lives of those we serve. Our mission
+        is founded on the principles of compassion, inclusivity,
+        sustainable development, celebrating diversity, and wellness,
+        and has benefitted underprivileged communities.
+      </p>
 
-          <button
-            type="button"
-            className="mt-[38px] h-[42px] min-w-[130px] rounded-full border border-white/50 bg-transparent px-[32px] text-[12px] font-[600] uppercase tracking-[2.5px] text-white transition-all duration-200 hover:bg-white hover:text-[#5a1e0a] cursor-pointer"
-          >
-            READ MORE
-          </button>
-        </div>
-      </section>
+      <p>
+        We envision a society where every individual, regardless of
+        background, has access to the opportunities and resources
+        necessary for a better life. By collaborating with stakeholders,
+        we focus on empowerment, education, health maintenance, and child
+        welfare, this is recognition to be awarded.
+      </p>
+
+      <p>
+        Our dedicated team of professionals and volunteers combine their
+        expertise and heartfelt commitment to give those in need inspiring
+        opportunities, thoughts, and basic utilities. Panchsheel Abhinav
+        Foundation is a beacon of hope, initiating positive change and
+        providing self-sustaining within communities.
+      </p>
+
+      <p>
+        Through our work and efforts, we aim to make lasting and long-term
+        change, building a bridge of access and more equitable future for
+        all.
+      </p>
+    </div>
+
+    <button
+      type="button"
+      className="
+        mt-[80px]
+        h-[42px]
+        min-w-[130px]
+        rounded-full
+        
+        bg-transparent
+        px-[32px]
+        text-[12px]
+        font-[600]
+        uppercase
+        tracking-[2.5px]
+        bg-white
+        transition-all duration-200
+        hover:bg-[#ff6a00]
+        hover:text-white
+        cursor-pointer
+      "
+    >
+      READ MORE
+    </button>
+  </div>
+</section>
 
       <section className="w-full bg-white py-16 md:py-24">
         <div className="mx-auto max-w-[1240px] px-5 md:px-8">
@@ -119,18 +145,16 @@ const WhoWeAre = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div className="flex flex-col">
               <h3 className="text-[26px] md:text-[30px] font-[700] text-gray-900 leading-[1.3] mb-8">
-                Creating Safe and Inclusive Learning Spaces at Jeevan Jyoti Sama
-                Sewa Sansthan NGO For Child Rights Protection
+                Creating Safe and Inclusive Learning Spaces at Panchsheel Abhinav Foundation For Child Rights Protection
               </h3>
 
               <div className="space-y-6">
                 <div>
                   <h4 className="text-[15px] font-[700] text-gray-900 mb-2 leading-snug">
-                    Creating Safe Learning Environments at Jeevan Jyoti Sama
-                    Sewa Sansthan
+                    Creating Safe Learning Environments at Panchsheel Abhinav Foundation
                   </h4>
                   <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                    At Jeevan Jyoti Sama Sewa Sansthan, NGO For Child Rights
+                    At Panchsheel Abhinav Foundation For Child Rights
                     Protection we are dedicated to creating secure and nurturing
                     learning environments for children, especially those with
                     disabilities. Our focus is on ensuring their safety and
@@ -147,7 +171,7 @@ const WhoWeAre = () => {
                     Education
                   </h4>
                   <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                    Our programs at Jeevan Jyoti Sama Sewa Sansthan NGO For
+                    Our programs at Panchsheel Abhinav Foundation For
                     Child Rights Protectionare specifically designed to be
                     inclusive, providing tailored support for children with
                     disabilities. We focus on empowering them with the tools and
@@ -163,7 +187,7 @@ const WhoWeAre = () => {
                     Fostering Growth and Development in a Supportive Atmosphere
                   </h4>
                   <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                    At Jeevan Jyoti Sama Sewa Sansthan, NGO For Child Rights
+                    At Panchsheel Abhinav Foundation, NGO For Child Rights
                     Protection we prioritize creating environments where
                     children feel safe, valued, and empowered. Our goal is to
                     nurture their growth by providing the support and resources
@@ -185,7 +209,7 @@ const WhoWeAre = () => {
                   — Our Mission
                 </h4>
                 <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                  At Jeevan Jyoti Sama Sewa Sansthan, NGO For Child Rights
+                  At Panchsheel Abhinav Foundation, NGO For Child Rights
                   Protection Best NGO our mission is to{" "}
                   <strong className="font-[700] text-gray-900">empower</strong>{" "}
                   and{" "}
@@ -225,7 +249,7 @@ const WhoWeAre = () => {
                   — Our Vision
                 </h4>
                 <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                  Our vision at Jeevan Jyoti Sama Sewa Sansthan NGO For Child
+                  Our vision at Panchsheel Abhinav Foundation For Child
                   Rights Protection is to create a{" "}
                   <strong className="font-[700] text-gray-900">
                     world of equality and empowerment
@@ -268,7 +292,7 @@ const WhoWeAre = () => {
                   — Our Story
                 </h4>
                 <p className="text-[13.5px] text-gray-600 leading-[1.75]">
-                  Jeevan Jyoti Sama Sewa Sansthan (JJSSS) NGO For Child Rights
+                 Panchsheel Abhinav Foundation NGO For Child Rights
                   Protection has grown from a small initiative to a recognized
                   leader in empowering marginalized communities, especially
                   children with disabilities. Through impactful education,

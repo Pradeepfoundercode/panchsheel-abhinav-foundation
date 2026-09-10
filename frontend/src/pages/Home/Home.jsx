@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import WhatWeDo from "../../components/common/WhatWeDo";
 import { assets, stories } from "../../constants/data";
@@ -7,6 +8,7 @@ import { DonateSection } from "../../components/common";
 import { FaQuoteRight } from "react-icons/fa";
 
 const Home = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
   return (
     <div className="w-full bg-white font-poppins">
       <section
@@ -18,14 +20,10 @@ const Home = () => {
         <div className="relative z-10 mx-auto flex h-full max-w-[1140px] flex-col justify-center px-4 max-md:px-5 mt-9">
           <div>
             <h3 className="mb-8 text-[21px] font-bold text-white max-md:mb-5 max-md:text-[15px]">
-            Because Only Together We Can
-
-            
-          </h3>
-          <div className="mb-12 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
+              Because Only Together We Can
+            </h3>
+            <div className="mb-12 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
           </div>
-
-          
 
           <h1
             className="
@@ -45,71 +43,414 @@ const Home = () => {
             Build a World Where All Youth Are Safe, Strong & Valued
           </h1>
 
-
-          <button className=" bg-white h-[49px] w-[143.06px] rounded-4xl mt-17 ">Read More</button>
+          <button className=" bg-white h-[49px] w-[143.06px] rounded-4xl mt-17 ">
+            Read More
+          </button>
         </div>
       </section>
 
       <section className="w-full bg-white pb-[80px]">
-        <div className="mx-auto w-full max-w-[1212px]">
-          <h1 className="text-center text-[60px] font-bold text-[#151515] max-md:text-[38px] font-poppins mt-2" >
+        <div className="mx-auto w-full max-w-[1380px] ">
+          {/* Heading */}
+          <h1 className="mt-20 text-center font-poppins text-[45px] font-bold text-[#151515] max-md:text-[38px]">
             Who We are ?
           </h1>
 
-          <div className="home-profile-layout mt-[40px] flex items-start max-md:mt-8 max-md:flex-col">
-            <div className="h-[660.23px] w-[489.06px] shrink-0 max-md:h-auto max-md:w-full">
-              <img
-                src={assets.slalImage}
-                alt="Mr. S.LAL"
-                className="block h-[660.23px] w-[489.06px] object-cover max-md:h-auto max-md:w-full"
-              />
+          <div className="mx-auto mt-[22px] h-[4px] w-[55px] rounded-full bg-[#ff5a00]" />
+
+          {/* 4 Members */}
+          <div className="mt-[40px] grid grid-cols-4 gap-[17px] max-lg:grid-cols-2 max-md:mt-8 max-md:grid-cols-1">
+            {/* 1 Members */}
+            <div className="group w-full max-w-[390px] overflow-hidden rounded-[24px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+              {/* Image */}
+              <div className="relative m-3 overflow-hidden rounded-[20px] bg-gray-100">
+                <img
+                  src={assets.slalImage}
+                  alt="Mr. S.LAL"
+                  className="w-full h-full object-cover "
+                />
+
+                {/* Small overlay */}
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
+
+              {/* Content */}
+              <div className="px-5 pb-5">
+                {/* Name */}
+                <h2 className="text-[24px] font-bold leading-tight text-[#151515] text-center">
+                  Mr. S.LAL
+                </h2>
+
+                {/* Designation */}
+                <p className="mt-1 text-[13px] font-medium text-[#777] text-center">
+                  (Managing Director)
+                </p>
+
+                {/* Email */}
+                <div className="flex items-start gap-2 mt-2">
+                  <svg
+                    className="mt-[2px] h-4 w-4 shrink-0 text-[#8B1E3F]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+
+                  <p className="break-all text-[12px] leading-5 text-[#666]">
+                    panchsheelabhinavfoundation@gmail.com
+                  </p>
+                </div>
+
+                {/* Description */}
+                <div className="mt-4">
+                  <p
+                    className="
+          overflow-hidden
+          text-[11.5px]
+          leading-[1.7]
+          text-[#555]
+          [display:-webkit-box]
+          [-webkit-box-orient:vertical]
+          [-webkit-line-clamp:3]
+        "
+                  >
+                    S. Lal, born on 1st July 1965, completed his primary
+                    education in District Barabanki and holds a B.Sc. and B.Ed.
+                    from Lucknow University. Since 1994, he has been teaching
+                    Maths and Science at CBSE schools and coaching students,
+                    while also engaging in community service through NGO
+                    activities. From 2003 to 2009, he supported Self-Help Groups
+                    (SHGs) in various capacities, including opening bank
+                    accounts and promoting micro-insurance. In 2010, he was
+                    empanelled by the Jute Board as a Cluster Development Agency
+                    for two districts in Uttar Pradesh, focusing on jute bag
+                    production, marketing, and training.
+                  </p>
+                </div>
+
+                <a
+                  href="/details/1"
+                  className="mt-3 inline-flex items-center gap-1 text-[12px] font-semibold text-[#8B1E3F] transition-all duration-200 hover:gap-2"
+                >
+                  Read More
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
 
-            <div className="ml-[33px] h-[660.23px] w-[550px] shrink-0 overflow-hidden max-md:ml-0 max-md:mt-8 max-md:h-auto max-md:w-full">
-              <h2 className="text-[40px] font-bold text-[#151515] max-md:text-[32px]">
-                Mr. S.LAL
-              </h2>
+            {/* 2 Members */}
+            <div className="group w-full max-w-[390px] overflow-hidden rounded-[24px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+              {/* Image */}
+              <div className="relative m-3 overflow-hidden rounded-[20px] bg-gray-100">
+                <img
+                  src={assets.slalImage}
+                  alt="Mr. S.LAL"
+                  className="w-full h-full object-cover "
+                />
 
-              <p className="mt-[5px] text-[18px] font-normal leading-[1.6] text-[#151515]">
-                (Managing Director) JeevanJyoti Samaj Sewa Sansthan
-              </p>
+                {/* Small overlay */}
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
 
-              <p className="mt-[18px] text-[18px] font-normal leading-[1.6] text-[#151515] max-md:text-[16px]">
-                Email:-jeevanjyoti.sss@gmail.com
-              </p>
+              {/* Content */}
+              <div className="px-5 pb-5">
+                {/* Name */}
+                <h2 className="text-[24px] font-bold leading-tight text-[#151515] text-center">
+                  Mr. S.LAL
+                </h2>
 
-              <p className="my-[24px] text-[16.3px] font-normal leading-[1.49] text-[#151515] text-justify max-md:text-[15px]">
-                S. Lal, born on 1st July 1965, completed his primary education
-                in District Barabanki and holds a B.Sc. and B.Ed. from Lucknow
-                University. Since 1994, he has been teaching Maths and Science
-                at CBSE schools and coaching students, while also engaging in
-                community service through NGO activities. From 2003 to 2009, he
-                supported Self-Help Groups (SHGs) in various capacities,
-                including opening bank accounts and promoting micro-insurance.
-                In 2010, he was empanelled by the Jute Board as a Cluster
-                Development Agency for two districts in Uttar Pradesh, focusing
-                on jute bag production, marketing, and training. He organized a
-                book fair in 2015 at TD Degree College, Jaunpur, and promoted
-                Urdu language education through a diploma course. Between 2016
-                and 2017, he worked with the National Child Labour Program and
-                began supporting individuals with disabilities under the
-                National Trust Ministry of Social Justice. He managed the Disha
-                Cum Vikas Scheme from 2018 to 2023, providing early intervention
-                for children with disabilities. Additionally, he conducted road
-                safety and eye testing programs for highway drivers in
-                2021-2022, and organized innovative geometry teacher training in
-                2022-2023. Currently, he is serving as a Board Member of The
-                National Trust and is also a member of the Divyangjan Rajya
-                Salahkar Board, advocating for persons with disabilities, while
-                also focusing on empowering women through SHGs and providing
-                support for PwDs.
-              </p>
+                {/* Designation */}
+                <p className="mt-1 text-[13px] font-medium text-[#777] text-center">
+                  (Managing Director)
+                </p>
+
+                {/* Email */}
+                <div className="flex items-start gap-2 mt-2">
+                  <svg
+                    className="mt-[2px] h-4 w-4 shrink-0 text-[#8B1E3F]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+
+                  <p className="break-all text-[12px] leading-5 text-[#666]">
+                    panchsheelabhinavfoundation@gmail.com
+                  </p>
+                </div>
+
+                {/* Description */}
+                <div className="mt-4">
+                  <p
+                    className="
+          overflow-hidden
+          text-[11.5px]
+          leading-[1.7]
+          text-[#555]
+          [display:-webkit-box]
+          [-webkit-box-orient:vertical]
+          [-webkit-line-clamp:3]
+        "
+                  >
+                    S. Lal, born on 1st July 1965, completed his primary
+                    education in District Barabanki and holds a B.Sc. and B.Ed.
+                    from Lucknow University. Since 1994, he has been teaching
+                    Maths and Science at CBSE schools and coaching students,
+                    while also engaging in community service through NGO
+                    activities. From 2003 to 2009, he supported Self-Help Groups
+                    (SHGs) in various capacities, including opening bank
+                    accounts and promoting micro-insurance. In 2010, he was
+                    empanelled by the Jute Board as a Cluster Development Agency
+                    for two districts in Uttar Pradesh, focusing on jute bag
+                    production, marketing, and training.
+                  </p>
+                </div>
+
+                {/* Read More */}
+                <a
+                  href="/details/2"
+                  className="mt-3 inline-flex items-center gap-1 text-[12px] font-semibold text-[#8B1E3F] transition-all duration-200 hover:gap-2"
+                >
+                  Read More
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* 3 Members */}
+            <div className="group w-full max-w-[390px] overflow-hidden rounded-[24px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+              {/* Image */}
+              <div className="relative m-3 overflow-hidden rounded-[20px] bg-gray-100">
+                <img
+                  src={assets.slalImage}
+                  alt="Mr. S.LAL"
+                  className="w-full h-full object-cover "
+                />
+
+                {/* Small overlay */}
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
+
+              {/* Content */}
+              <div className="px-5 pb-5">
+                {/* Name */}
+                <h2 className="text-[24px] font-bold leading-tight text-[#151515] text-center">
+                  Mr. S.LAL
+                </h2>
+
+                {/* Designation */}
+                <p className="mt-1 text-[13px] font-medium text-[#777] text-center">
+                  (Managing Director)
+                </p>
+
+                {/* Email */}
+                <div className="flex items-start gap-2 mt-2">
+                  <svg
+                    className="mt-[2px] h-4 w-4 shrink-0 text-[#8B1E3F]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+
+                  <p className="break-all text-[12px] leading-5 text-[#666]">
+                    panchsheelabhinavfoundation@gmail.com
+                  </p>
+                </div>
+
+                {/* Description */}
+                <div className="mt-4">
+                  <p
+                    className="
+          overflow-hidden
+          text-[11.5px]
+          leading-[1.7]
+          text-[#555]
+          [display:-webkit-box]
+          [-webkit-box-orient:vertical]
+          [-webkit-line-clamp:3]
+        "
+                  >
+                    S. Lal, born on 1st July 1965, completed his primary
+                    education in District Barabanki and holds a B.Sc. and B.Ed.
+                    from Lucknow University. Since 1994, he has been teaching
+                    Maths and Science at CBSE schools and coaching students,
+                    while also engaging in community service through NGO
+                    activities. From 2003 to 2009, he supported Self-Help Groups
+                    (SHGs) in various capacities, including opening bank
+                    accounts and promoting micro-insurance. In 2010, he was
+                    empanelled by the Jute Board as a Cluster Development Agency
+                    for two districts in Uttar Pradesh, focusing on jute bag
+                    production, marketing, and training.
+                  </p>
+                </div>
+
+                {/* Read More */}
+                <a
+                  href="/details/3"
+                  className="mt-3 inline-flex items-center gap-1 text-[12px] font-semibold text-[#8B1E3F] transition-all duration-200 hover:gap-2"
+                >
+                  Read More
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* 4 Members */}
+            <div className="group w-full max-w-[390px] overflow-hidden rounded-[24px] border border-gray-100 bg-white  transition-all duration-300 shadow-md hover:-translate-y-1 hover:shadow-lg">
+              {/* Image */}
+              <div className="relative m-3 overflow-hidden rounded-[20px] bg-gray-100">
+                <img
+                  src={assets.slalImage}
+                  alt="Mr. S.LAL"
+                  className="w-full h-full object-cover "
+                />
+
+                {/* Small overlay */}
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
+
+              {/* Content */}
+              <div className="px-5 pb-5">
+                {/* Name */}
+                <h2 className="text-[24px] font-bold leading-tight text-[#151515] text-center">
+                  Mr. S.LAL
+                </h2>
+
+                {/* Designation */}
+                <p className="mt-1 text-[13px] font-medium text-[#777] text-center">
+                  (Managing Director)
+                </p>
+
+                {/* Email */}
+                <div className="flex items-start gap-2 mt-2">
+                  <svg
+                    className="mt-[2px] h-4 w-4 shrink-0 text-[#8B1E3F]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+
+                  <p className="break-all text-[12px] leading-5 text-[#666]">
+                    panchsheelabhinavfoundation@gmail.com
+                  </p>
+                </div>
+
+                {/* Description */}
+                <div className="mt-4">
+                  <p
+                    className="
+          overflow-hidden
+          text-[11.5px]
+          leading-[1.7]
+          text-[#555]
+          [display:-webkit-box]
+          [-webkit-box-orient:vertical]
+          [-webkit-line-clamp:3]
+        "
+                  >
+                    S. Lal, born on 1st July 1965, completed his primary
+                    education in District Barabanki and holds a B.Sc. and B.Ed.
+                    from Lucknow University. Since 1994, he has been teaching
+                    Maths and Science at CBSE schools and coaching students,
+                    while also engaging in community service through NGO
+                    activities. From 2003 to 2009, he supported Self-Help Groups
+                    (SHGs) in various capacities, including opening bank
+                    accounts and promoting micro-insurance. In 2010, he was
+                    empanelled by the Jute Board as a Cluster Development Agency
+                    for two districts in Uttar Pradesh, focusing on jute bag
+                    production, marketing, and training.
+                  </p>
+                </div>
+
+                {/* Read More */}
+                <a
+                  href="/details/4"
+                  className="mt-3 inline-flex items-center gap-1 text-[12px] font-semibold text-[#8B1E3F] transition-all duration-200 hover:gap-2"
+                >
+                  Read More
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="w-full bg-white pb-6.5 ">
+      {/* <section className="w-full bg-white pb-6.5 ">
         <div className="mx-auto w-full max-w-[1240px] px-5">
           <h2 className="text-center text-[43px] font-bold leading-[1.3] text-[#151515] max-md:text-[32px]">
             Professional Experience
@@ -288,15 +629,14 @@ const Home = () => {
 
           <div className="mt-[85px] ml-7 h-[4.6px] w-[1140px] bg-[#eb9bc2] max-md:mx-0 max-md:w-full" />
         </div>
-      </section>
+      </section> */}
 
-      <section className="w-full h-[757.38px] px-2.5 text-[15px] font-['Poppins'] font-sans max-md:h-auto">
+      {/* <section className="w-full h-[757.38px] px-2.5 text-[15px] font-['Poppins'] font-sans max-md:h-auto">
         <div className="home-story-layout mx-auto flex w-[1140px] py-2.5 max-md:w-full max-md:flex-col">
           <div className="h-[737.38px] w-[570px] p-2.5 max-md:h-auto max-md:w-full">
             <div className="h-[696px] w-[550px] max-md:h-auto max-md:w-full">
               <p className="mb-[24px] font-poppins">
-                "Jeevan Jyoti <span className="text-[#f50070]">Samaj</span> Sewa
-                Sansthan, NGO in Lucknow is dedicated to addressing social
+                "Panchsheel Abhinav Foundation in Lucknow is dedicated to addressing social
                 issues, with a special focus on supporting children with
                 intellectual disabilities, autism, and cerebral palsy (CP). We
                 provide comprehensive care, educational resources, and
@@ -304,8 +644,7 @@ const Home = () => {
                 inclusivity within society."
               </p>
               <p className="mb-[24px] font-poppins">
-                "Jeevan Jyoti Samaj Sewa
-                Sansthan, NGO in Lucknow is dedicated to addressing social
+                "Panchsheel Abhinav Foundation in Lucknow is dedicated to addressing social
                 issues, with a special focus on supporting children with
                 intellectual disabilities, autism, and cerebral palsy (CP). We
                 provide comprehensive care, educational resources, and
@@ -313,8 +652,7 @@ const Home = () => {
                 inclusivity within society."
               </p>
               <p className="mb-[24px] font-poppins">
-                "Jeevan Jyoti Samaj Sewa
-                Sansthan, NGO in Lucknow is dedicated to addressing social
+                "Panchsheel Abhinav Foundation in Lucknow is dedicated to addressing social
                 issues, with a special focus on supporting children with
                 intellectual disabilities, autism, and cerebral palsy (CP). We
                 provide comprehensive care, educational resources, and
@@ -322,8 +660,7 @@ const Home = () => {
                 inclusivity within society."
               </p>
               <p className="mb-[24px] font-poppins">
-                "Jeevan Jyoti samaj Sewa
-                Sansthan, NGO in Lucknow is dedicated to addressing social
+                "Panchsheel Abhinav Foundation in Lucknow is dedicated to addressing social
                 issues, with a special focus on supporting children with
                 intellectual disabilities, autism, and cerebral palsy (CP). We
                 provide comprehensive care, educational resources, and
@@ -343,47 +680,84 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <div className="mx-auto w-full max-w-[1240px] px-5">
-        <div className="mt-[15px] mb-[25.5px] ml-7 h-[4.6px] w-[1140px] bg-[#eb9bc2] max-md:mx-0 max-md:w-full" />
-      </div>
+      </section> */}
 
       <section>
         <WhatWeDo />
       </section>
 
-      <section className="relative w-full  bg-white">
-        <div className="mx-auto w-full max-w-[1180px] px-0 pt-[19px] pb-[120px]">
+      <section className="relative w-full bg-white">
+        <div className="mx-auto w-full max-w-[1180px] px-5 pt-[60px] pb-[110px]">
+          {/* Heading */}
           <div className="text-center">
-            <h2 className="font-[Poppins,sans-serif] text-[37px] font-[700] leading-[1.2] text-[#171717]">
+            <h2 className="font-[Poppins,sans-serif] text-[45px] font-bold leading-[1.2] text-[#171717] max-md:text-[34px]">
               Impact Stories
             </h2>
 
-            <div className="mx-auto mt-[36px] h-[4px] w-[52px] bg-[#ff5b00]" />
+            <div className="mx-auto mt-[22px] h-[4px] w-[52px] rounded-full bg-[#ff5b00]" />
           </div>
 
-          <div className="mt-[70px] mx-10 grid grid-cols-2  gap-x-[40px] max-md:grid-cols-1 max-md:gap-12">
+          {/* Stories */}
+          <div className="mt-[60px] grid grid-cols-2 gap-[28px] max-md:grid-cols-1">
             {stories.map((story, index) => (
-              <article key={index} className="w-full">
-                <div className="h-[70px] font-[Arial,sans-serif] text-[125px] font-[900] leading-[0.72] text-[#ff6900]">
-                <FaQuoteRight size={70}/>
+              <article
+                key={index}
+                className="
+            w-full
+            rounded-[24px]
+            bg-white
+            p-[30px]
+            shadow-md
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+              >
+                {/* Quote Icon */}
+                <div className="mb-[22px] text-[#ff6900]">
+                  <FaQuoteRight size={48} />
                 </div>
 
-                <h3 className="mt-[20px] min-h-[70px] max-w-[545px]  text-[16px] font-[700]  text-[#171717]">
+                {/* Title */}
+                <h3 className="mb-[20px] min-h-[55px] font-[Poppins,sans-serif] text-[18px] font-bold leading-[1.4] text-[#171717]">
                   {story.title}
                 </h3>
 
-                <p className="mt-[40px] max-w-[550px] text-[15px] font-[400]  text-[#222] text-justify">
+                {/* Description */}
+                <p className="font-[Poppins,sans-serif] text-[14px] font-normal leading-[1.7] text-[#555555] text-justify">
                   {story.description}
                 </p>
 
+                {/* Read More */}
                 <button
                   type="button"
-                  className="mt-[48px] flex h-[53px] min-w-[176px] items-center justify-center gap-[7px] rounded-full bg-[#f50070] px-[28px] font-[Poppins,sans-serif] text-[14px] font-[500] uppercase leading-none text-white transition duration-200 hover:bg-[#df0065]"
+                  className="
+              mt-[30px]
+              flex
+              h-[48px]
+              min-w-[150px]
+              items-center
+              justify-center
+              gap-[7px]
+              rounded-full
+              bg-[#f50070]
+              px-[24px]
+              font-[Poppins,sans-serif]
+              text-[13px]
+              font-medium
+              uppercase
+              leading-none
+              text-white
+              transition
+              duration-200
+              hover:bg-[#df0065]
+            "
                 >
                   <span>READ MORE</span>
-                  <span className="text-[22px] font-[400] leading-none">+</span>
+                  <span className="text-[20px] font-normal leading-none">
+                    +
+                  </span>
                 </button>
               </article>
             ))}

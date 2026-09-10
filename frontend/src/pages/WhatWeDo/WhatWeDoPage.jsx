@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { DonateSection, HeroBanner } from "../../components/common";
+import { DonateSection, HeroBanner, WhatWeDo } from "../../components/common";
 import { assets, whatWeDoServices, careForCards } from "../../constants/data";
 
 const WhatWeDoPage = () => {
@@ -16,7 +16,7 @@ const WhatWeDoPage = () => {
         <div className="relative z-10 mx-[200px] flex h-full max-w-[1140px] flex-col justify-center px-4 max-md:px-5 mt-9">
           <div>
             <h3 className="mb-8 text-[27px] font-bold text-white max-md:mb-5 max-md:text-[15px]">
-              Jeevan Jyoti Samaj Sewa Sansthan NGO for Disabled Children in Lucknow
+              Panchsheel Abhinav Foundation for Disabled Children in Lucknow
             </h3>
             <div className="mb-9 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
           </div>
@@ -43,45 +43,8 @@ const WhatWeDoPage = () => {
         </div>
       </section>
 
-      <section className="w-full bg-white py-16 md:py-24">
-        <div className="mx-auto w-full max-w-[1180px] px-5">
-          <div className="text-center">
-            <h2 className="text-[34px] md:text-[40px] font-[700] text-[#181818] leading-[1.2]">
-              What We Do
-            </h2>
-            <div className="mx-auto mt-[18px] h-[4px] w-[50px] bg-[#ff5b00]" />
-          </div>
-
-          <div className="mt-[60px] md:mt-[75px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[36px] gap-y-[52px]">
-            {whatWeDoServices.map((service) => (
-              <div key={service.number} className="w-full">
-                <div className="mb-[14px] text-[15px] font-[700] text-[#171717]">
-                  {service.number}
-                </div>
-
-                <h3 className="mb-[20px] text-[24px] md:text-[26px] font-[700] text-[#181818] leading-[1.25]">
-                  <span className="mr-[8px]">—</span>
-                  {service.title}
-                </h3>
-
-                <p className="text-[14px] font-[400] leading-[1.75] text-[#333] text-justify">
-                  {service.description}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-[60px] md:mt-[70px] flex justify-center">
-            <Link>
-              <button
-                type="button"
-                className="h-[48px] min-w-[140px] rounded-full bg-[#f90072] px-[36px] text-[14px] font-[600] uppercase tracking-[1px] text-white transition-all duration-200 hover:bg-[#df0065] cursor-pointer shadow-md"
-              >
-                READ MORE
-              </button>
-            </Link>
-          </div>
-        </div>
+      <section>
+        <WhatWeDo />
       </section>
 
       <section className="w-full bg-[#fdfbfa] py-16 md:py-24 border-t border-[#f4ebec]">
@@ -126,8 +89,8 @@ const WhatWeDoPage = () => {
 
       <section className="w-full bg-white py-16 md:py-20">
         <div className="mx-auto w-full max-w-[1180px] px-5">
-          <div className="w-full border-2 border-[#f50070] py-3.5 px-6 text-center mb-12">
-            <h2 className="text-[26px] md:text-[30px] font-[700] text-[#181818] leading-[1.2]">
+          <div className="w-full border-y-5 border-[#f50070] py-7 px-6 text-center mb-12">
+            <h2 className="text-[26px] md:text-[30px] font-[300] text-[#181818] leading-[1.2]">
               Our Success Stories
             </h2>
           </div>
@@ -138,7 +101,7 @@ const WhatWeDoPage = () => {
                 Social Inclusion
               </h3>
               <p className="text-[14px] font-[400] leading-[1.8] text-[#3d3d3d] text-justify">
-                At Jeevan Jyoti Samaj Sewa Sansthan (JJSSS), NGO in Lucknow
+                At Panchsheel Abhinav Foundation in Lucknow
                 we’ve made significant strides in empowering children with
                 disabilities through social inclusion. By creating safe,
                 inclusive environments, we’ve helped children gain confidence,

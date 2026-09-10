@@ -8,6 +8,19 @@
   --font-amatic: "Amatic SC", handwriting;
 }
 
+
+@theme {
+  /* For Tailwind v4+ */
+  --utility-font-style-inherit: font-style: inherit;
+  --utility-font-weight-inherit: font-weight: inherit;
+}
+
+/* Alternative traditional CSS injection compatible with all versions */
+@layer utilities {
+  .style-inherit { font-style: inherit; }
+  .weight-inherit { font-weight: inherit; }
+}
+
 html,
 body,
 #root {

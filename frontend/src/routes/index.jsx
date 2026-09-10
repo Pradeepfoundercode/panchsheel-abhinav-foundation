@@ -9,6 +9,7 @@ import WhatWeDoPage from "../pages/WhatWeDo/WhatWeDoPage";
 import ContactPage from "../pages/Contact/ContactPage";
 import OurPartnersPage from "../pages/Partners/OurPartnersPage";
 import OurServicesPage from "../pages/OurServices/OurServicesPage";
+import Details from "../pages/About/Details";
 
 
 function AppRoutes() {
@@ -24,6 +25,7 @@ function AppRoutes() {
         <Route path="/what-we-do" element={<WhatWeDoPage />} />
         <Route path="/ngo-for-disabled-children-in-lucknow" element={<WhatWeDoPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/details/:id" element={<Details />} />
       </Route>
 
       <Route path="*" element={<NotFound />} />

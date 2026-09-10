@@ -105,19 +105,19 @@ export const whatWeDoServices = [
     number: "01.",
     title: "We Find",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan, NGO for Disabled Children in Lucknow is dedicated to promoting social inclusion, focusing on empowering children with disabilities, including intellectual impairments, autism, and cerebral palsy. Through specialized programs and support services, JJSSS works to break barriers, foster acceptance, and provide equal opportunities for these children. Our initiatives aim to create a more inclusive, supportive society for all.",
+      "Panchsheel Abhinav Foundation, NGO for Disabled Children in Lucknow is dedicated to promoting social inclusion, focusing on empowering children with disabilities, including intellectual impairments, autism, and cerebral palsy. Through specialized programs and support services, JJSSS works to break barriers, foster acceptance, and provide equal opportunities for these children. Our initiatives aim to create a more inclusive, supportive society for all.",
   },
   {
     number: "02.",
     title: "We Build Networks",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan,NGO for Disabled Children in Lucknow has established multiple centers that serve as hubs of hope and transformation, addressing the educational, therapeutic, and social needs of underprivileged children. Through its comprehensive programs and a dedicated team, the organization continues to empower communities and drive sustainable development, creating lasting positive change.",
+      "Panchsheel Abhinav Foundation ,NGO for Disabled Children in Lucknow has established multiple centers that serve as hubs of hope and transformation, addressing the educational, therapeutic, and social needs of underprivileged children. Through its comprehensive programs and a dedicated team, the organization continues to empower communities and drive sustainable development, creating lasting positive change.",
   },
   {
     number: "03.",
     title: "We Strengthen",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan’s strength lies in its skilled team of professionals, inclusive initiatives, and community-focused strategies. With a steadfast commitment to empowering marginalized communities and individuals with disabilities, the organization fosters equality, dignity, and sustainable development, making a lasting impact on countless lives.",
+      "Panchsheel Abhinav Foundation strength lies in its skilled team of professionals, inclusive initiatives, and community-focused strategies. With a steadfast commitment to empowering marginalized communities and individuals with disabilities, the organization fosters equality, dignity, and sustainable development, making a lasting impact on countless lives.",
   },
   {
     number: "04.",
@@ -129,28 +129,28 @@ export const whatWeDoServices = [
     number: "05.",
     title: "We Provide Care",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan, NGO Lucknow is a dedicated service provider offering inclusive education, healthcare, legal guardianship, skill development, and rehabilitation programs. Focused on underprivileged communities and individuals with disabilities, it strives to empower lives, foster independence, and promote equality for a brighter and inclusive future.",
+      "Panchsheel Abhinav Foundation, NGO Lucknow is a dedicated service provider offering inclusive education, healthcare, legal guardianship, skill development, and rehabilitation programs. Focused on underprivileged communities and individuals with disabilities, it strives to empower lives, foster independence, and promote equality for a brighter and inclusive future.",
   },
   {
     number: "06.",
     title: "We Consult",
     description:
-      "At Jeevan Jyoti Samaj Sewa Sansthan, NGO Lucknow we consult with society to raise awareness about the rights and needs of disabled children. We encourage inclusive practices, advocate for accessible education and healthcare, and promote social acceptance. Our consultations emphasize the importance of creating supportive environments that enable children with disabilities to thrive and participate fully in society.",
+      "At Panchsheel Abhinav Foundation, NGO Lucknow we consult with society to raise awareness about the rights and needs of disabled children. We encourage inclusive practices, advocate for accessible education and healthcare, and promote social acceptance. Our consultations emphasize the importance of creating supportive environments that enable children with disabilities to thrive and participate fully in society.",
   },
 ];
 
 export const stories = [
   {
     title:
-      "A Successful Journey: Transforming Lives through Jeevan Jyoti Samaj Sewa Sansthan, NGO in Lucknow",
+      "A Successful Journey: Transforming Lives through Panchsheel Abhinav Foundation, NGO in Lucknow",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan (JJSSS) began with a simple vision: to empower marginalized communities, especially children with disabilities. Despite early challenges, the organization’s dedication to education, healthcare, and support created a lasting impact. Through inclusive programs like skill development, vocational training, and awareness campaigns, JJSSS helped children unlock their potential and gain independence. Recognized for excellence in social welfare and inclusive education, JJSSS has expanded its reach, serving more families and communities. Today, JJSSS stands as a beacon of hope, demonstrating the power of compassion and commitment to creating a brighter, more inclusive future for all.",
+      "Panchsheel Abhinav Foundation began with a simple vision: to empower marginalized communities, especially children with disabilities. Despite early challenges, the organization’s dedication to education, healthcare, and support created a lasting impact. Through inclusive programs like skill development, vocational training, and awareness campaigns, JJSSS helped children unlock their potential and gain independence. Recognized for excellence in social welfare and inclusive education, JJSSS has expanded its reach, serving more families and communities. Today, JJSSS stands as a beacon of hope, demonstrating the power of compassion and commitment to creating a brighter, more inclusive future for all.",
   },
   {
     title:
-      "A Milestone in Social and Financial Inclusion for Children with Disabilities: A Success Story from Jeevan Jyoti Samaj Sewa Sansthan, NGO in Lucknow",
+      "A Milestone in Social and Financial Inclusion for Children with Disabilities: A Success Story from Panchsheel Abhinav Foundation, NGO in Lucknow",
     description:
-      "At Jeevan Jyoti Samaj Sewa Sansthan (JJSSS),NGO in Lucknow we’ve made significant strides in empowering children with disabilities through social and financial inclusion. By creating safe, inclusive environments, we’ve helped children gain confidence, access education, and participate actively in their communities. Our financial inclusion programs, including vocational training and small-business support for families, have lifted many out of poverty, allowing them to support their children’s growth. Today, children once isolated are thriving academically and socially, while families are becoming financially self-sufficient. Through our holistic approach, we continue to break barriers, ensuring every child with a disability has the opportunity to succeed.",
+      "At Panchsheel Abhinav Foundation,NGO in Lucknow we’ve made significant strides in empowering children with disabilities through social and financial inclusion. By creating safe, inclusive environments, we’ve helped children gain confidence, access education, and participate actively in their communities. Our financial inclusion programs, including vocational training and small-business support for families, have lifted many out of poverty, allowing them to support their children’s growth. Today, children once isolated are thriving academically and socially, while families are becoming financially self-sufficient. Through our holistic approach, we continue to break barriers, ensuring every child with a disability has the opportunity to succeed.",
   },
 ];
 
@@ -158,9 +158,9 @@ export const serviceList = [
   {
     id: 1,
     title:
-      "Compassionate Care & Security: Legal Guardianship for Children with Disabilities – A Jeevan Jyoti Samaj Sewa Sansthan Initiative",
+      "Compassionate Care & Security: Legal Guardianship for Children with Disabilities – A Panchsheel Abhinav Foundation Initiative",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan is committed to ensuring the well-being, safety, and dignity of children with disabilities through same-gender legal guardianship. This initiative focuses on providing a nurturing and secure environment where children with autism, intellectual disabilities, cerebral palsy, and other special needs receive proper healthcare, nutrition, clothing, medical support, yoga therapy, and recreational activities. By appointing dedicated guardians of the same gender, we promote a sense of comfort, trust, and emotional well-being, empowering these children to lead fulfilling lives with dignity and care.",
+      "Panchsheel Abhinav Foundation is committed to ensuring the well-being, safety, and dignity of children with disabilities through same-gender legal guardianship. This initiative focuses on providing a nurturing and secure environment where children with autism, intellectual disabilities, cerebral palsy, and other special needs receive proper healthcare, nutrition, clothing, medical support, yoga therapy, and recreational activities. By appointing dedicated guardians of the same gender, we promote a sense of comfort, trust, and emotional well-being, empowering these children to lead fulfilling lives with dignity and care.",
     image: banner1,
     imageAlt: "Legal Guardianship Initiative",
   },
@@ -169,7 +169,7 @@ export const serviceList = [
     title:
       "Transforming Young Lives: Early Intervention & Streamlining, Holistic Therapy for Children with Disabilities",
     description:
-      "At Jeevan Jyoti Samaj Sewa Sansthan, we are dedicated to transforming the lives of children with disabilities through early intervention and specialized therapies. For children up to 10 years of age, we provide essential support, including physiotherapy, occupational therapy, and developmental programs tailored to their unique needs. Our goal is to enhance their mobility, independence, and overall well-being, ensuring they reach their full potential. Through compassionate care and expert guidance, we empower these young minds to build a brighter and more inclusive future.",
+      "At Panchsheel Abhinav Foundation, we are dedicated to transforming the lives of children with disabilities through early intervention and specialized therapies. For children up to 10 years of age, we provide essential support, including physiotherapy, occupational therapy, and developmental programs tailored to their unique needs. Our goal is to enhance their mobility, independence, and overall well-being, ensuring they reach their full potential. Through compassionate care and expert guidance, we empower these young minds to build a brighter and more inclusive future.",
     image: banner2,
     imageAlt: "Early Intervention & Holistic Therapy",
   },
@@ -178,16 +178,16 @@ export const serviceList = [
     title:
       "Empowering Independence: Vocational & Daily Living Skills for 10+ Years Beneficiaries",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan is committed to empowering individuals with disabilities aged 10 and above through comprehensive vocational and daily living skills. Our programs focus on enhancing communication, fostering everyday independence through self-care training, recreational activities, and craft technique routines. By fostering practical and artistic abilities, we help them lead dignified lives, build social networks, and achieve financial independence.",
+      "Panchsheel Abhinav Foundation is committed to empowering individuals with disabilities aged 10 and above through comprehensive vocational and daily living skills. Our programs focus on enhancing communication, fostering everyday independence through self-care training, recreational activities, and craft technique routines. By fostering practical and artistic abilities, we help them lead dignified lives, build social networks, and achieve financial independence.",
     image: banner3,
     imageAlt: "Vocational & Daily Living Skills Training",
   },
   {
     id: 4,
     title:
-      "Jeevan Jyoti Samaj Sewa Sansthan: Niramaya Health Card, UDID Registration & Claim Reimbursement Assistance",
+      "Panchsheel Abhinav Foundation: Niramaya Health Card, UDID Registration & Claim Reimbursement Assistance",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan is dedicated to empowering individuals with disabilities aged 10 and above by equipping them with essential vocational and daily living skills. Our programs focus on enhancing their independence, self-reliance, and employability through skill-based training, hands-on activities, and livelihood opportunities. By fostering confidence and capability, we help them lead dignified lives, contribute to society, and achieve financial independence.",
+      "Panchsheel Abhinav Foundation is dedicated to empowering individuals with disabilities aged 10 and above by equipping them with essential vocational and daily living skills. Our programs focus on enhancing their independence, self-reliance, and employability through skill-based training, hands-on activities, and livelihood opportunities. By fostering confidence and capability, we help them lead dignified lives, contribute to society, and achieve financial independence.",
     image: banner4,
     imageAlt: "Niramaya Health Card & UDID Assistance",
   },
@@ -196,7 +196,7 @@ export const serviceList = [
     title:
       "Empowering Lives: Assistance in Obtaining Assistive Devices for Persons with Disabilities",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan is committed to ensuring hassle-free access to healthcare benefits for individuals with disabilities. Through our streamlined process, we assist in obtaining the Niramaya Health Card and Unique Disability ID (UDID), enabling beneficiaries to receive essential medical support. Our dedicated team also monitors health claims, facilitates reimbursement, and manages documentation and communication with concerned authorities. By providing end-to-end support, we strive to make healthcare services more accessible, efficient, and beneficial for those in need.",
+      "Panchsheel Abhinav Foundation is committed to ensuring hassle-free access to healthcare benefits for individuals with disabilities. Through our streamlined process, we assist in obtaining the Niramaya Health Card and Unique Disability ID (UDID), enabling beneficiaries to receive essential medical support. Our dedicated team also monitors health claims, facilitates reimbursement, and manages documentation and communication with concerned authorities. By providing end-to-end support, we strive to make healthcare services more accessible, efficient, and beneficial for those in need.",
     image: banner5,
     imageAlt: "Assistive Devices and Wheelchair Distribution",
   },
@@ -205,7 +205,7 @@ export const serviceList = [
     title:
       "Digital Empowerment: Smartphones for Women Guardians of Persons with Disabilities",
     description:
-      "Jeevan Jyoti Samaj Sewa Sansthan is dedicated to enhancing the mobility, independence, and quality of life of persons with disabilities by helping them obtain essential assistive devices. We assist in the procurement of wheelchairs, hearing aids, crutches, prosthetics, and other mobility and support equipment tailored to individual needs. Our team provides guidance in applying for government schemes, documentation support, and coordination with relevant authorities to ensure a smooth process. Through this initiative, we aim to empower individuals with disabilities, enabling them to lead more independent and fulfilling lives.",
+      "Panchsheel Abhinav Foundation is dedicated to enhancing the mobility, independence, and quality of life of persons with disabilities by helping them obtain essential assistive devices. We assist in the procurement of wheelchairs, hearing aids, crutches, prosthetics, and other mobility and support equipment tailored to individual needs. Our team provides guidance in applying for government schemes, documentation support, and coordination with relevant authorities to ensure a smooth process. Through this initiative, we aim to empower individuals with disabilities, enabling them to lead more independent and fulfilling lives.",
     image: banner6,
     imageAlt: "Digital Empowerment with Smartphones",
   },
@@ -224,7 +224,7 @@ export const donationDefaults = {
   heading: "Donate",
   upiId: "jjsss@ucobank",
   description:
-    "Jeevan Jyoti Sama Sewa Sansthan empowers children with disabilities, providing them education, healthcare, and opportunities to thrive. Help create lasting change today!",
+    "Panchsheel Abhinav Foundation empowers children with disabilities, providing them education, healthcare, and opportunities to thrive. Help create lasting change today!",
   buttonLabel: "DONATE",
 };
 
@@ -236,7 +236,7 @@ export const careForCards = [
     title:
       "Early Intervention & Specialized Care for Children with Disabilities in Lucknow",
     paragraphs: [
-      "At Jeevan Jyoti Samaj Sewa Sansthan, NGO for Disabled Children in Lucknow, our early intervention programs focus on identifying and addressing developmental delays in infants and toddlers with disabilities, including autism, cerebral palsy, and intellectual challenges.",
+      "At Panchsheel Abhinav Foundation, NGO for Disabled Children in Lucknow, our early intervention programs focus on identifying and addressing developmental delays in infants and toddlers with disabilities, including autism, cerebral palsy, and intellectual challenges.",
       "We offer tailored therapy sessions, sensory stimulation, and personalized care routines designed to support motor skills, communication abilities, and cognitive development from the earliest stages of life.",
       "Through regular assessments and compassionate parental counseling, we empower families with essential guidance, home management strategies, and emotional reassurance.",
       "Our team of passionate caregivers and therapists works tirelessly to establish strong foundations, fostering long-term developmental growth and greater everyday independence.",
@@ -321,4 +321,114 @@ export const assets = {
   img2,
   manImage,
   scannerImage,
+};
+
+
+export const members = {
+  1: {
+    name: "Mr. S.LAL",
+    designation: "(Managing Director) Panchsheel Abhinav Foundation",
+    email: "panchsheelabhinavfoundation7@gmail.com",
+    image: assets.slalImage,
+    description: `S. Lal, born on 1st July 1965, completed his primary education 
+in District Barabanki and holds a B.Sc. and B.Ed. from Lucknow 
+University. Since 1994, he has been teaching Maths and Science 
+at CBSE schools and coaching students, while also engaging in 
+community service through NGO activities. From 2003 to 2009, he 
+supported Self-Help Groups (SHGs) in various capacities, 
+including opening bank accounts and promoting micro-insurance. 
+In 2010, he was empanelled by the Jute Board as a Cluster 
+Development Agency for two districts in Uttar Pradesh, focusing 
+on jute bag production, marketing, and training. He organized a 
+book fair in 2015 at TD Degree College, Jaunpur, and promoted 
+Urdu language education through a diploma course. Between 2016 
+and 2017, he worked with the National Child Labour Program and 
+began supporting individuals with disabilities under the 
+National Trust Ministry of Social Justice. He managed the Disha 
+Cum Vikas Scheme from 2018 to 2023, providing early intervention 
+for children with disabilities. Additionally, he conducted road 
+safety and eye testing programs for highway drivers in 
+2021-2022, and organized innovative geometry teacher training in 
+2022-2023.`,
+  },
+2: {
+    name: "Mr. S.LAL",
+    designation: "(Managing Director)  Panchsheel Abhinav Foundation",
+    email: "panchsheelabhinavfoundation7@gmail.com",
+    image: assets.slalImage,
+    description: `S. Lal, born on 1st July 1965, completed his primary education 
+in District Barabanki and holds a B.Sc. and B.Ed. from Lucknow 
+University. Since 1994, he has been teaching Maths and Science 
+at CBSE schools and coaching students, while also engaging in 
+community service through NGO activities. From 2003 to 2009, he 
+supported Self-Help Groups (SHGs) in various capacities, 
+including opening bank accounts and promoting micro-insurance. 
+In 2010, he was empanelled by the Jute Board as a Cluster 
+Development Agency for two districts in Uttar Pradesh, focusing 
+on jute bag production, marketing, and training. He organized a 
+book fair in 2015 at TD Degree College, Jaunpur, and promoted 
+Urdu language education through a diploma course. Between 2016 
+and 2017, he worked with the National Child Labour Program and 
+began supporting individuals with disabilities under the 
+National Trust Ministry of Social Justice. He managed the Disha 
+Cum Vikas Scheme from 2018 to 2023, providing early intervention 
+for children with disabilities. Additionally, he conducted road 
+safety and eye testing programs for highway drivers in 
+2021-2022, and organized innovative geometry teacher training in 
+2022-2023. `,
+  },
+  3: {
+    name: "Mr. S.LAL",
+    designation: "(Managing Director)  Panchsheel Abhinav Foundation",
+    email: "panchsheelabhinavfoundation7@gmail.com",
+    image: assets.slalImage,
+    description: `S. Lal, born on 1st July 1965, completed his primary education 
+in District Barabanki and holds a B.Sc. and B.Ed. from Lucknow 
+University. Since 1994, he has been teaching Maths and Science 
+at CBSE schools and coaching students, while also engaging in 
+community service through NGO activities. From 2003 to 2009, he 
+supported Self-Help Groups (SHGs) in various capacities, 
+including opening bank accounts and promoting micro-insurance. 
+In 2010, he was empanelled by the Jute Board as a Cluster 
+Development Agency for two districts in Uttar Pradesh, focusing 
+on jute bag production, marketing, and training. He organized a 
+book fair in 2015 at TD Degree College, Jaunpur, and promoted 
+Urdu language education through a diploma course. Between 2016 
+and 2017, he worked with the National Child Labour Program and 
+began supporting individuals with disabilities under the 
+National Trust Ministry of Social Justice. He managed the Disha 
+Cum Vikas Scheme from 2018 to 2023, providing early intervention 
+for children with disabilities. Additionally, he conducted road 
+safety and eye testing programs for highway drivers in 
+2021-2022, and organized innovative geometry teacher training in 
+2022-2023. `,
+  },
+  4: {
+    name: "Mr. S.LAL",
+    designation: "(Managing Director)  Panchsheel Abhinav Foundation",
+    email: "panchsheelabhinavfoundation7@gmail.com",
+    image: assets.slalImage,
+    description: `S. Lal, born on 1st July 1965, completed his primary education 
+in District Barabanki and holds a B.Sc. and B.Ed. from Lucknow 
+University. Since 1994, he has been teaching Maths and Science 
+at CBSE schools and coaching students, while also engaging in 
+community service through NGO activities. From 2003 to 2009, he 
+supported Self-Help Groups (SHGs) in various capacities, 
+including opening bank accounts and promoting micro-insurance. 
+In 2010, he was empanelled by the Jute Board as a Cluster 
+Development Agency for two districts in Uttar Pradesh, focusing 
+on jute bag production, marketing, and training. He organized a 
+book fair in 2015 at TD Degree College, Jaunpur, and promoted 
+Urdu language education through a diploma course. Between 2016 
+and 2017, he worked with the National Child Labour Program and 
+began supporting individuals with disabilities under the 
+National Trust Ministry of Social Justice. He managed the Disha 
+Cum Vikas Scheme from 2018 to 2023, providing early intervention 
+for children with disabilities. Additionally, he conducted road 
+safety and eye testing programs for highway drivers in 
+2021-2022, and organized innovative geometry teacher training in 
+2022-2023.`,
+  },
+
+  
 };

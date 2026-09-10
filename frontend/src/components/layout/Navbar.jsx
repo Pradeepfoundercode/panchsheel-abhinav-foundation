@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
       {/* ================= HEADER ================= */}
-      <header className="h-[108.45px] w-full border-b border-[#f4dce5] bg-white font-poppins max-xl:h-[74px]">
+      <header className="h-[108.45px] w-full  bg-white font-poppins max-xl:h-[74px]">
         <div className="mx-auto h-full max-w-[1220px] px-5 max-xl:px-3">
           <div className="flex h-full w-full items-center justify-between">
 
@@ -208,14 +208,14 @@ const Navbar = () => {
       </header>
 
       {/* ================= BOTTOM TICKER ================= */}
-      <div className="flex h-[31.3px] w-full items-center justify-center  bg-white font-poppins max-xl:hidden">
+      <div className="flex h-[31.3px]  border-b border-t border-[#f4dce5] w-full items-center justify-center  bg-white font-poppins max-xl:hidden">
         <div className="mx-auto h-full w-[1240px] px-5">
           <div className="grid h-full w-[1200px] grid-cols-2 items-center gap-[20px]">
 
             <div className="h-full w-[732.93px]">
               <aside className="h-full w-[285.85px] px-2.5">
                 <marquee className="h-6 w-[265.85px] text-[14px]">
-                  Jeevan jyoti samaj seva sansthan
+                  Panchsheel Abhinav Foundation
                 </marquee>
               </aside>
             </div>
