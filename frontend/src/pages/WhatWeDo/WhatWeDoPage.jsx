@@ -8,40 +8,129 @@ const WhatWeDoPage = () => {
   return (
     <div className="w-full font-['Poppins',sans-serif] bg-white text-[#151515]">
       <section
-        className="relative h-[721.2px] w-full overflow-hidden bg-fixed bg-cover bg-center bg-auto max-md:h-[620px] max-md:bg-scroll"
-        style={{ backgroundImage: `url(${assets.banner02})` }}
+  className="
+    relative
+    h-[721.2px]
+    w-full
+    overflow-hidden
+    bg-fixed
+    bg-cover
+    bg-center
+    bg-auto
+
+    max-lg:h-[650px]
+    max-lg:bg-scroll
+
+    max-md:h-auto
+    max-md:min-h-[620px]
+    max-md:bg-scroll
+
+    max-sm:min-h-[570px]
+  "
+  style={{
+    backgroundImage: `url(${assets.banner02})`,
+  }}
+>
+  <div className="absolute inset-0 bg-gradient-to-r from-[#f32956]/90 to-[#ff6815]/90 opacity-90" />
+
+  <div
+    className="
+      relative
+      z-10
+      mx-[200px]
+      flex
+      h-full
+      max-w-[1140px]
+      flex-col
+      justify-center
+      px-4
+      mt-9
+
+      max-xl:mx-[100px]
+
+      max-lg:mx-[60px]
+      max-lg:px-4
+
+      max-md:mx-0
+      max-md:h-auto
+      max-md:min-h-[620px]
+      max-md:justify-center
+      max-md:px-5
+      max-md:py-[60px]
+      max-md:mt-0
+
+      max-sm:min-h-[570px]
+      max-sm:px-4
+      max-sm:py-[50px]
+    "
+  >
+    <div>
+      <h3
+        className="
+          mb-8
+          text-[27px]
+          font-bold
+          text-white
+
+          max-lg:text-[22px]
+
+          max-md:mb-5
+          max-md:text-[15px]
+
+          max-sm:mb-4
+          max-sm:text-[14px]
+        "
       >
-        <div className="absolute inset-0 opacity-90 bg-gradient-to-r from-[#f32956]/90  to-[#ff6815]/90" />
+        Panchsheel Abhinav Foundation for Disabled Children in Lucknow
+      </h3>
 
-        <div className="relative z-10 mx-[200px] flex h-full max-w-[1140px] flex-col justify-center px-4 max-md:px-5 mt-9">
-          <div>
-            <h3 className="mb-8 text-[27px] font-bold text-white max-md:mb-5 max-md:text-[15px]">
-              Panchsheel Abhinav Foundation for Disabled Children in Lucknow
-            </h3>
-            <div className="mb-9 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
-          </div>
+      <div
+        className="
+          mb-9
+          h-[5px]
+          w-[101px]
+          bg-white
 
-          <h1
-            className="
-               max-w-[1100px]
-               h-[280px]
-               font-amatic
-               text-[95px]
-               font-bold
-              
-               tracking-normal
-               text-white
-               uppercase
-               max-md:text-[50px]
-               max-md:leading-[0.95]
-             "
-          >
-           We Support Children and Youth to Reach Their Full Potential
-          </h1>
+          max-lg:mb-7
 
-          
-        </div>
-      </section>
+          max-md:mb-7
+          max-md:h-[4px]
+          max-md:w-[60px]
+
+          max-sm:mb-6
+          max-sm:w-[55px]
+        "
+      />
+    </div>
+
+    <h1
+      className="
+        max-w-[1100px]
+        font-amatic
+        text-[95px]
+        font-bold
+        leading-[1]
+        tracking-normal
+        text-white
+        uppercase
+
+        max-xl:text-[85px]
+
+        max-lg:max-w-[900px]
+        max-lg:text-[72px]
+
+        max-md:max-w-full
+        max-md:text-[50px]
+        max-md:leading-[0.95]
+
+        max-sm:text-[40px]
+        max-sm:leading-[1.05]
+      "
+    >
+      We Support Children and Youth to Reach Their Full Potential
+    </h1>
+  </div>
+</section>
 
       <section>
         <WhatWeDo />

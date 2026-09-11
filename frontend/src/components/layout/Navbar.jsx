@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
       {/* ================= HEADER ================= */}
-      <header className="h-[108.45px] w-full  bg-white font-poppins max-xl:h-[74px]">
+      <header className="h-[108.45px] w-full  bg-white border-b border-[#f4dce5] font-poppins max-xl:h-[74px]">
         <div className="mx-auto h-full max-w-[1220px] px-5 max-xl:px-3">
           <div className="flex h-full w-full items-center justify-between">
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="flex h-full w-[978.55px] items-center justify-end max-xl:w-auto">
 
               {/* ================= DESKTOP NAV ================= */}
-              <nav className="flex h-[77.8px] w-[720.6px] items-center justify-end pr-2.5 max-xl:hidden">
+              <nav className="flex h-[77.8px] w-[720.6px] items-center justify-end pr-2.5 max-lg:hidden">
                 {navLinks.map(({ label, to }) => {
                   const active = isLinkActive(to);
 
@@ -208,7 +208,7 @@ const Navbar = () => {
       </header>
 
       {/* ================= BOTTOM TICKER ================= */}
-      <div className="flex h-[31.3px]  border-b border-t border-[#f4dce5] w-full items-center justify-center  bg-white font-poppins max-xl:hidden">
+      <div className="flex h-[31.3px]  border-b  border-[#f4dce5] w-full items-center justify-center  bg-white font-poppins max-xl:hidden">
         <div className="mx-auto h-full w-[1240px] px-5">
           <div className="grid h-full w-[1200px] grid-cols-2 items-center gap-[20px]">
 

@@ -6,39 +6,131 @@ import { assets } from "../../constants/data";
 const ContactPage = () => {
   return (
     <div className="w-full font-['Poppins',sans-serif] bg-white text-[#151515]">
-      <section
-        className="relative h-[570px] w-full overflow-hidden bg-scroll bg-cover bg-center max-md:h-[620px] max-md:bg-scroll"
-        style={{ backgroundImage: `url(${assets.banner04})` }}
+     <section
+  className="
+    relative
+    h-[570px]
+    w-full
+    overflow-hidden
+    bg-scroll
+    bg-cover
+    bg-center
+
+    max-xl:h-[570px]
+
+    max-lg:h-[570px]
+    max-lg:bg-scroll
+
+    max-md:h-auto
+    max-md:min-h-[620px]
+    max-md:bg-scroll
+
+    max-sm:min-h-[570px]
+  "
+  style={{
+    backgroundImage: `url(${assets.banner04})`,
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#f32956]/90 to-[#ff6815]/90 opacity-90" />
+
+  {/* Content */}
+  <div
+    className="
+      relative
+      z-10
+      mx-[190px]
+      flex
+      h-full
+      max-w-[1140px]
+      flex-col
+      justify-center
+      px-4
+      mt-18
+
+      max-xl:mx-[120px]
+
+      max-lg:mx-[60px]
+      max-lg:px-4
+
+      max-md:mx-0
+      max-md:h-auto
+      max-md:min-h-[620px]
+      max-md:justify-center
+      max-md:px-5
+      max-md:py-[60px]
+      max-md:mt-0
+
+      max-sm:min-h-[570px]
+      max-sm:px-4
+      max-sm:py-[50px]
+    "
+  >
+    <div>
+      <h3
+        className="
+          mb-7
+          text-[20px]
+          font-bold
+          text-white
+
+          max-lg:text-[18px]
+
+          max-md:mb-5
+          max-md:text-[15px]
+
+          max-sm:mb-4
+          max-sm:text-[14px]
+        "
       >
-        <div className="absolute inset-0 opacity-90 bg-gradient-to-r from-[#f32956]/90  to-[#ff6815]/90" />
+        Panchsheel Abhinav Foundation
+      </h3>
 
-        <div className="relative z-10 mx-[190px] flex h-full max-w-[1140px] flex-col justify-center px-4 max-md:px-5 mt-18">
-          <div>
-            <h3 className="mb-7 text-[20px] font-bold text-white max-md:mb-5 max-md:text-[15px]">
-              Panchsheel Abhinav Foundation
-            </h3>
-            <div className="mb-10 h-[5px] w-[101px] bg-white max-md:mb-7 max-md:h-[4px] max-md:w-[60px]" />
-          </div>
+      <div
+        className="
+          mb-10
+          h-[5px]
+          w-[101px]
+          bg-white
 
-          <h1
-            className="
-                           max-w-[1100px]
-                           h-[280px]
-                           font-amatic
-                           text-[100px]
-                           font-bold
-                          
-                           tracking-normal
-                           text-white
-                           uppercase
-                           max-md:text-[50px]
-                           max-md:leading-[0.95]
-                         "
-          >
-            Contact Us
-          </h1>
-        </div>
-      </section>
+          max-md:mb-7
+          max-md:h-[4px]
+          max-md:w-[60px]
+
+          max-sm:mb-6
+          max-sm:w-[55px]
+        "
+      />
+    </div>
+
+    <h1
+      className="
+        max-w-[1100px]
+        font-amatic
+        text-[100px]
+        font-bold
+        leading-[1]
+        tracking-normal
+        text-white
+        uppercase
+
+        max-xl:text-[85px]
+
+        max-lg:max-w-[900px]
+        max-lg:text-[72px]
+
+        max-md:max-w-full
+        max-md:text-[50px]
+        max-md:leading-[0.95]
+
+        max-sm:text-[40px]
+        max-sm:leading-[1.05]
+      "
+    >
+      Contact Us
+    </h1>
+  </div>
+</section>
 
      <section className="w-full bg-white py-[70px] max-md:py-[45px]">
   <div className="mx-auto w-full max-w-[1140px] px-5">

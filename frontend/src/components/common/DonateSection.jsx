@@ -35,21 +35,21 @@ const DonateSection = ({
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      {/* Overlay */}
+    
       <div className="absolute inset-0 bg-black/20" />
 
-      {/* Content */}
+     
       <div className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col items-center px-4 py-[82px] max-md:py-[65px]">
 
-        {/* Heading */}
+      
         <h2 className="font-poppins text-[37px] font-bold leading-[1.2] text-white max-md:text-[32px]">
           {heading}
         </h2>
 
-        {/* Account Details */}
+        
         <div className="mt-[24px] text-center text-white">
 
-          {/* Account Number */}
+         
           <p className="font-poppins text-[27px] font-extrabold uppercase tracking-[1px] leading-[1.2] max-md:text-[21px]">
             ACCOUNT NUMBER
           </p>
@@ -106,7 +106,7 @@ const DonateSection = ({
             </button>
           </div>
 
-          {/* IFSC Code */}
+        
           <p className="mt-[23px] font-poppins text-[27px] font-extrabold uppercase tracking-[1px] leading-[1.2] max-md:text-[21px]">
             IFSC CODE
           </p>
@@ -164,25 +164,24 @@ const DonateSection = ({
           </div>
         </div>
 
-        {/* Divider */}
+     
         <div className="mt-[27px] h-[4px] w-[48px] rounded-full bg-white" />
 
-        {/* Support Heading */}
+       
         <p className="mt-[19px] text-center font-poppins text-[28px] font-extrabold uppercase tracking-[1px] leading-[1.2] text-white max-md:text-[21px]">
           SUPPORT US TODAY
         </p>
 
-        {/* Support Sub Heading */}
+        
         <p className="mt-[7px] text-center font-poppins text-[22px] font-semibold leading-[1.3] text-white max-md:text-[17px]">
           and Transform a Child’s Future!
         </p>
 
-        {/* Description */}
         <p className="mt-[15px] max-w-[560px] text-center font-poppins text-[15px] font-normal leading-[24px] text-[#eeeeee] max-md:max-w-[90%] max-md:text-[14px] max-md:leading-[22px]">
           {description}
         </p>
 
-        {/* Button */}
+       
         <button
           type="button"
           onClick={onDonateClick}
