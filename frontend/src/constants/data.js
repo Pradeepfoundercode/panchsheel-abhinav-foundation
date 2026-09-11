@@ -36,9 +36,9 @@ export const navLinks = [
   { label: "Who We Are", to: "/careers-2" },
   { label: "What We Do", to: "/ngo-for-disabled-children-in-lucknow" },
   // { label: "Our Partners", to: "/our-partners" },
-  { label: "Contact Us", to: "/contact" },
   { label: "Donate", to: "/donate" },
   { label: "Our Services", to: "/our-services" },
+  { label: "Contact Us", to: "/contact" },
 ];
 
 export const partners = [
