@@ -126,7 +126,7 @@ const OurServicesPage = () => {
 </section>
 
    
-      <section className="w-full  pb-16 pt-8 md:pb-20 md:pt-10">
+      {/* <section className="w-full  pb-16 pt-8 md:pb-20 md:pt-10">
         <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8">
 
           <div className="mx-auto mb-12 w-full max-w-[1140px] text-center md:mb-14">
@@ -264,7 +264,7 @@ const OurServicesPage = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {selectedImage && (
         <div
